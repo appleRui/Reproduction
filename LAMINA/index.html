@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Reset.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="slick-theme.css">
+	<link rel="stylesheet" href="slick.css">
+	<title>LAMINA</title>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="inner">
+				<ul class="hd_left">
+					<a href="#"><li class="nav_icon">NEW IN</li></a>
+					<a href="#"><li class="nav_icon">COLLECTION</li></a>
+					<a href="#"><li class="nav_icon">LOOK BOOK</li></a>
+				</ul>
+				<div class="hd_ttl_inner">
+					<a href="#"><h1 class="hd_ttl">LAMINA</h1></a>
+				</div>
+				<ul class="hd_right">
+					<a href="#"><li class="nav_icon">OUR STIRE</li></a>
+					<a href="#"><li class="nav_icon">NEWS</li></a>
+					<a href="#"><li class="nav_icon">STORES</li></a>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<section class="top_wrap">
+		<div class="container slide-container">
+			<ul class="slide">
+				<li><img src="img/mv_img.png" alt=""></li>
+				<li><img src="img/mv_imge1.png" alt=""></li>				
+				<li><img src="img/mv_imge2.png" alt=""></li>				
+			</ul>
+		</div>
+	</section>
+	
+	<section class="news-wrap">
+		<div class="inner">
+		<div class="news">
+			<div class="left">
+				<div class="news_img"></div>
+			</div>
+			<div class="right">
+			<a href="#">
+				<p class="sub_time_txt">2020 SS Collction</p>
+				<h2 class="main_txt">Primitive</h2>
+				<p class="sub_txt">太古の誇りを</p>
+				<p class="click_txt">Didcover</p>
+				</a>
+			</div>
+		</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('.slide').slick({
+    	autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		prevArrow: '<img src="img/arrows_left.png" class="arrow prev-arrow">',
+    	nextArrow: '<img src="img/arrows_right.png" class="arrow next-arrow">'
+  });
+});
+	</script>
+</body>
+</html>
