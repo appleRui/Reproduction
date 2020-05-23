@@ -2,7 +2,7 @@
 
 *,
 *::after,
-*::before{
+*::before {
 	box-sizing: border-box;
 }
 
@@ -84,9 +84,10 @@ header .info_btn {
 	line-height: 26px;
 	letter-spacing: 0.05em;
 }
+
 .top_wrap .mv_bg {
 	margin: 0;
-/*	height: 670px;*/
+	/*	height: 670px;*/
 	padding-top: 165px;
 	padding-bottom: 200px;
 	background: url(image/mv_bg-img.png);
@@ -111,31 +112,36 @@ header .info_btn {
 	line-height: 36px;
 	letter-spacing: 0.1em;
 	color: white;
-		text-shadow: 0px 0px 2px #7798db;
+	text-shadow: 0px 0px 2px #7798db;
 }
+
 .news {
 	background: #edfcff;
 }
+
 .news .news_inner {
 	margin: 0 auto;
 	padding: 60px 0;
 	display: flex;
 	width: 1200px;
 }
+
 .news .news_ttl {
 	display: inline;
 	flex: 1;
 }
-.news  h2{
+
+.news h2 {
 	margin: 0;
 	font-weight: 1000;
 	font-size: 40px;
 	color: #019bdf;
 }
-.news_index{
+
+.news_index {
 	color: #333;
-/*	text-decoration: none;*/
 }
+
 .news .news_items {
 	list-style-type: none;
 	margin-left: 40px;
@@ -147,19 +153,21 @@ header .info_btn {
 	flex-direction: column;
 	flex: 9;
 }
+
 .news .news_item {
-	margin-top:  15px;
-	padding-bottom:  10px;
-/*	height: 30px;*/
+	margin-top: 15px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #93deff;
 }
+
 .news .time {
 	display: inline-block;
 	margin-right: 30px;
-		font-size: 13px;
+	font-size: 13px;
 	line-height: 24px;
 	letter-spacing: 0.075;
 }
+
 .news .category {
 	text-align: center;
 	font-size: 10px;
@@ -170,6 +178,7 @@ header .info_btn {
 	background: #019bdf;
 	vertical-align: middle;
 }
+
 .news .news_item_txt {
 	display: inline-block;
 	margin: 0;
@@ -178,14 +187,17 @@ header .info_btn {
 	line-height: 24px;
 	letter-spacing: 0.075;
 }
+
 .service {
-	margin-top: 78px; 
+	margin-top: 78px;
 }
+
 .service .service_inner {
-margin: 0 auto;
+	margin: 0 auto;
 	width: 1200px;
 	text-align: center;
 }
+
 .service h2 {
 	margin: 0 0 0px 0;
 	font-size: 40px;
@@ -193,6 +205,7 @@ margin: 0 auto;
 	letter-spacing: 0.025;
 	color: #019bdf;
 }
+
 .service p {
 	margin: 0;
 	font-size: 14px;
@@ -201,11 +214,13 @@ margin: 0 auto;
 	color: #019bdf;
 	font-weight: bold;
 }
+
 .service_items {
 	display: flex;
-	margin-top:10px;
+	margin-top: 10px;
 	justify-content: space-between;
 }
+
 .service_items .service_item {
 	height: 380px;
 	width: 380px;
