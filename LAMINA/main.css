@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 *,
 *:after,
@@ -28,68 +28,80 @@ header {
 	justify-content: space-between;
 	height: 95px;
 	max-width: 1200px;
-/*	outline: 1px solid red;*/
+	/*	outline: 1px solid red;*/
 }
+
 .hd_left {
 	list-style-type: none;
 }
+
 .hd_left .nav_icon {
-	display: inline-block;	
+	display: inline-block;
 	font-size: 15px;
 	letter-spacing: 0.2em;
-	font-family:   "Bodoni URW";
+	font-family: "Bodoni URW";
 	margin-left: 40px;
 }
-.hd_ttl_inner > a{
+
+.hd_ttl_inner > a {
 	text-decoration: none;
 }
+
 .hd_ttl_inner .hd_ttl {
 	font-size: 36px;
 	letter-spacing: 0.2em;
-	font-family:   "Bodoni URW";
+	font-family: "Bodoni URW";
 }
+
 .hd_right {
 	list-style-type: none;
 	margin-right: 60px;
 }
+
 .hd_right .nav_icon {
-	display: inline-block;	
+	display: inline-block;
 	font-size: 15px;
 	letter-spacing: 0.2em;
-	font-family:   "Bodoni URW";
+	font-family: "Bodoni URW";
 	margin-right: 45px;
 }
 
-.top_wrap{
+.top_wrap {
 	height: 780px;
-/*	background: #333;*/
+	/*	background: #333;*/
 }
-.slide{
+
+.slide {
 	list-style-type: none;
 	position: relative
 }
 
-.arrow{
+.arrow {
 	position: absolute;
 	top: 337px;
 	z-index: 1;
 	cursor: pointer;
-/*	outline: 1px solid red;*/
+	/*	outline: 1px solid red;*/
 }
-.prev-arrow{
+
+.prev-arrow {
 	left: 38px;
 }
-.next-arrow{
+
+.next-arrow {
 	right: 38px;
 }
-.news-wrap{
-/*	height: 1000px;*/
-/*	background: red;*/
+
+.news-wrap {
+	/*	height: 1000px;*/
+	/*	background: red;*/
 }
+
 .news-wrap .news {
 	display: flex;
 	height: 100%;
 }
+
 .news-wrap .left {
 	margin-left: 30px;
 	margin-top: 53px;
@@ -98,35 +110,41 @@ header {
 	background: #e2e2e2;
 	box-shadow: -30px 50px 0 #f5f0e9;
 }
-.news-wrap .right{
+
+.news-wrap .right {
 	margin-top: 53px;
 	padding-top: 60px;
 	padding-left: 80px;
 }
-.news-wrap .right a{
+
+.news-wrap .right a {
 	text-decoration: none;
 }
+
 .sub_time_txt {
-	font-family:   "[Futura]";
+	font-family: "[Futura]";
 	font-size: 20px;
 	line-height: 38px;
 	letter-spacing: 0.2em;
 }
+
 .main_txt {
-	font-family:"Didot";
+	font-family: "Didot";
 	font-size: 64px;
 	line-height: 86px;
 	letter-spacing: 0.1em;
 }
+
 .sub_txt {
 	font-size: 18px;
 	line-height: 26px;
 	letter-spacing: 0.3em;
 }
-.click_txt{
+
+.click_txt {
 	font-size: 15px;
 	margin-top: 40px;
 	line-height: 24px;
 	letter-spacing: 0.05em;
-	text-decoration:underline;
+	text-decoration: underline;
 }
