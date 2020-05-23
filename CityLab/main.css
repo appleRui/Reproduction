@@ -1,13 +1,13 @@
-@charset "utf-8"
+@charset "utf-8";
 
 *,
-*:after,
-*:before {
+*::after,
+*::before{
 	box-sizing: border-box;
 }
 
 a {
-	list-style-type: none;
+	text-decoration: none;
 }
 
 body {
@@ -132,9 +132,9 @@ header .info_btn {
 	font-size: 40px;
 	color: #019bdf;
 }
-.news p {
-	margin: 0;
+.news_index{
 	color: #333;
+/*	text-decoration: none;*/
 }
 .news .news_items {
 	list-style-type: none;
