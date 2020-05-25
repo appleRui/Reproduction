@@ -86,7 +86,6 @@ header .container {
 	font-weight: 100;
 	letter-spacing: 0.075em;
 	line-height: 35px;
-
 }
 
 .top_sub {
@@ -105,7 +104,6 @@ header .container {
 	font-size: 52px;
 	letter-spacing: 0.05em;
 	line-height: 45px;
-
 }
 
 .top_sub_icon {
@@ -133,7 +131,6 @@ header .container {
 
 .parsent {
 	font-size: 26px;
-
 }
 
 .btn {
@@ -212,7 +209,6 @@ header .container {
 }
 
 .batch_txt_main {
-	font-family: '小塚ゴシック Pro', 'Kozuka Gothic Pro', sans-serif;
 	font-style: oblique;
 	font-size: 35px;
 	line-height: 37px;
