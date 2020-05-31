@@ -13,6 +13,7 @@
 	background-position: top;
 	background-size: cover;
 	max-width: 1600px;
+	height: 962px;
 }
 
 header {
@@ -154,6 +155,7 @@ header .container {
 	background: url(../img/bg-img.png) no-repeat;
 	max-width: 1600px;
 	margin: 0 auto;
+	margin-top: -182px;
 }
 
 .toppic .toppic_inner {
